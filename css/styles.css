@@ -13,6 +13,35 @@ ul {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid #eb1b48;
+}
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
@@ -63,6 +92,11 @@ ul {
 
 .title {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.title-container {
 }
 
 .title-text {
@@ -72,6 +106,8 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .title-btn {
@@ -88,12 +124,18 @@ ul {
   background-color: #404bbf;
 }
 
+.adv {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .adv-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .adv-text {
@@ -103,6 +145,11 @@ ul {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-items {
@@ -117,6 +164,11 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-img {
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -125,11 +177,17 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -140,6 +198,11 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-img {
+  margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
@@ -148,6 +211,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -155,8 +219,13 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.portfolio-item {
+}
+
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-navy {
@@ -183,4 +252,5 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
 }
