@@ -209,11 +209,6 @@ img {
   gap: 24px;
 }
 
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .team-items {
   background-color: #fff;
   flex-basis: calc((100% - 72px) / 4);
